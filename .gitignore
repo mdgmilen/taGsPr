@@ -1,0 +1,186 @@
+
+#This will ignore:
+#Gradle artifacts: .gradle/, build/
+#IDE files: .idea/, *.iml, IntelliJ IDEA configurations
+#Gradle wrapper (keeps only the necessary wrapper files)
+#Log files: logs/ directory
+#OS-specific files: Windows, macOS, and Linux system files
+#Temporary files and build artifacts
+
+
+#my custom entries
+#.gitignore  let this be in the git repository for the dev team as a good practice 
+gradle/
+gradlew
+gradlew.bat
+
+
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Gradle Wrapper
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Logs
+logs/
+*.log
+log/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~.nib
+*.bak
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Application specific
+application-local.properties
+application-local.yml
+local.properties
+
+# Secrets and credentials
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
+
+# Documentation build artifacts (if generated)
+documentation/build/
+documentation/generated/
+!documentation/custom/
+
+
+
+
+# merged .gitignore file from the FreempFrontEnd project folder itself<<<<<<<<<<<<<<<<
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+#custom
+/v24.3.0
+
+
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# merged .gitignore file from the FreempFrontEnd project folder itself>>>>>>>>>>>>>>>>>>>>
+
+
+# Env files
+.env
+.env.local
