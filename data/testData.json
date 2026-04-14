@@ -1,0 +1,9 @@
+{
+  "defaultUser": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "subject": "Inquiry",
+    "message": "This is a sample message."
+  }
+}
